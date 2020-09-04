@@ -1,0 +1,63 @@
+@keyframes slideshow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.content {
+  background: black;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  z-index: -1;
+}
+
+.left,
+.right {
+  flex-basis: 5%;
+  height: 7vh;
+}
+
+.left > button,
+.right > button {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+  border: none;
+  outline: none;
+  padding: 15px;
+  font-size: 50px;
+}
+
+button:focus {
+  background: transparent;
+}
+
+.center {
+  flex-basis: 90%;
+}
+
+.carausel-image {
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/bg.jpg") no-repeat center center fixed;
+  animation: slideshow 0.25s ease-in;
+}
+.bg1 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/bg1.jpg") no-repeat center center fixed;
+}
+.bg2 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/bg2.jpg") no-repeat center center fixed;
+}
+.bg3 {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+    url("/images/bg3.jpg") no-repeat center center fixed;
+}

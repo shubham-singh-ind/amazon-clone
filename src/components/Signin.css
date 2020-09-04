@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.login-logo {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.amazon-logo {
+  width: 100px;
+  margin: auto;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 0px 1px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+}
+
+.input {
+  display: flex;
+  flex-direction: column;
+}
+
+.input > .button {
+  width: 100%;
+  margin: auto;
+  margin-top: 14px;
+  border: solid 1px;
+  background-color: #f3a847;
+  border-radius: 3px;
+  outline: none;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.form-input:focus {
+  outline: 2px solid #f3a847;
+  box-shadow: 0px 0px 4px 1px #f3a847;
+}
+
+.input > label {
+  font-weight: 700;
+}

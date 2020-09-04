@@ -1,0 +1,86 @@
+.nav {
+  background: #232f3e;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* Sticky navbar */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  width: 130px;
+  height: 70px;
+  display: flex;
+  flex-basis: 10%;
+}
+
+.search {
+  display: flex;
+  flex-basis: 60%;
+}
+
+.btn {
+  border: none;
+  background-color: #f3a847;
+  height: 100%;
+  width: 100%;
+  color: black;
+}
+
+.search > * > * {
+  width: 100%;
+}
+
+.search > .dropdown,
+.search > button {
+  display: flex;
+  flex-basis: 8%;
+}
+
+.search > .text-input {
+  display: flex;
+  flex-basis: 80%;
+}
+
+.search > .text-input > input:focus {
+  outline: 2px solid #f3a847;
+  box-shadow: 0px 0px 4px 1px #f3a847;
+}
+
+select,
+input {
+  border: solid 1px gray;
+  padding: 8px;
+}
+
+select {
+  background-color: rgb(195, 195, 195);
+}
+
+.links {
+  display: flex;
+  flex-basis: 20%;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.cart > a > i {
+  font-size: 25px;
+  color: white;
+}
+
+.links > * {
+  margin: 8px;
+}
+
+.info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.intro {
+  flex-basis: 100%;
+}

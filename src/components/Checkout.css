@@ -1,0 +1,19 @@
+.checkout__ad {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 7px;
+}
+
+.checkout-container {
+  padding: 20px;
+  display: flex;
+  height: max-content;
+}
+
+.checkout-right {
+  background-color: white;
+  /* padding: 20px; */
+  /* margin-left: 7px; */
+  /* margin-right: 5px; */
+}
